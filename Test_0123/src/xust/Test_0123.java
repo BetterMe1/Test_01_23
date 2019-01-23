@@ -33,7 +33,7 @@ package xust;
  * 我们会发现这就是斐波那契数列，斐波那契数列为：1 1 2 3 5 13 18 ... 
  * 因此计算方法就转换成了计算斐波那契数列。
  */
-//public class Test_0122 {
+//public class Test_0123 {
 //	public static void main(String[] args) {
 //		Solution So = new Solution();
 //		System.out.println(So.climbStairs(6));	
@@ -80,7 +80,7 @@ nums2 = [2,5,6],       n = 3
  * 用i标记合并后的nums1右端，初始为m+n-1，将每次找到的最大值放入合并后的nums1数组右端，
  * 每放一次，i--，直到放完为止，此时nums1成为了合并两个数组后的数组。
  */
-//public class Test_0122 {
+//public class Test_0123 {
 //	public static void main(String[] args) {
 //		int[] nums1 = {1,2,3,4,0,0,0,0};
 //		int m = 4;
@@ -151,7 +151,7 @@ nums2 = [2,5,6],       n = 3
  * 对整数x求根，则x必须大于0,如果判断x<1，则返回-1（表示输入数据有误），x==1时返回1，
  * 其他情况下：对x求根的结果肯定不会大于x/2,因此遍历从1到x/2之间的数字，用i代表此数字，满足i<=x/i && (i+1)>x/(i+1)时i即为x的根，跳出循环。
  */
-public class Test_0122 {
+public class Test_0123 {
 	public static void main(String[] args) {
 		Solution So = new Solution();
 		System.out.println(So.mySqrt(2147395600));	
